@@ -1,0 +1,979 @@
+2021-06-20 23:01:40 pid:216 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:01:40 pid:216 Workerman[test.php] stopping ...
+2021-06-20 23:01:40 pid:216 Workerman[test.php] has been stopped
+2021-06-20 23:01:52 pid:219 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:01:53 pid:219 Workerman[test.php] stopping ...
+2021-06-20 23:01:53 pid:219 Workerman[test.php] has been stopped
+2021-06-20 23:02:34 pid:222 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:02:34 pid:222 Workerman[test.php] stopping ...
+2021-06-20 23:02:34 pid:222 Workerman[test.php] has been stopped
+2021-06-20 23:02:49 pid:225 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:02:51 pid:225 Workerman[test.php] stopping ...
+2021-06-20 23:02:51 pid:225 Workerman[test.php] has been stopped
+2021-06-20 23:03:15 pid:233 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:03:18 pid:233 Workerman[test.php] stopping ...
+2021-06-20 23:03:18 pid:233 Workerman[test.php] has been stopped
+2021-06-20 23:03:43 pid:238 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:03:44 pid:238 Workerman[test.php] stopping ...
+2021-06-20 23:03:44 pid:238 Workerman[test.php] has been stopped
+2021-06-20 23:03:49 pid:243 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:03:51 pid:243 Workerman[test.php] stopping ...
+2021-06-20 23:03:51 pid:243 Workerman[test.php] has been stopped
+2021-06-20 23:04:47 pid:248 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:04:50 pid:248 Workerman[test.php] stopping ...
+2021-06-20 23:04:50 pid:248 Workerman[test.php] has been stopped
+2021-06-20 23:05:19 pid:253 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:05:22 pid:253 Workerman[test.php] stopping ...
+2021-06-20 23:05:22 pid:253 Workerman[test.php] has been stopped
+2021-06-20 23:06:31 pid:258 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:06:35 pid:258 Workerman[test.php] stopping ...
+2021-06-20 23:06:35 pid:258 Workerman[test.php] has been stopped
+2021-06-20 23:07:00 pid:263 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:07:03 pid:263 Workerman[test.php] stopping ...
+2021-06-20 23:07:03 pid:263 Workerman[test.php] has been stopped
+2021-06-20 23:07:41 pid:268 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:07:47 pid:268 Workerman[test.php] stopping ...
+2021-06-20 23:07:47 pid:268 Workerman[test.php] has been stopped
+2021-06-20 23:07:57 pid:273 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:08:00 pid:273 Workerman[test.php] stopping ...
+2021-06-20 23:08:00 pid:273 Workerman[test.php] has been stopped
+2021-06-20 23:08:07 pid:278 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:08:12 pid:278 Workerman[test.php] stopping ...
+2021-06-20 23:08:12 pid:278 Workerman[test.php] has been stopped
+2021-06-20 23:11:12 pid:302 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:11:12 pid:303 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#8 {main}
+2021-06-20 23:11:12 pid:303 Worker[303] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:303] exit with status 64000
+2021-06-20 23:11:12 pid:305 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:12 pid:305 Worker[305] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:305] exit with status 64000
+2021-06-20 23:11:12 pid:307 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:12 pid:307 Worker[307] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:307] exit with status 64000
+2021-06-20 23:11:12 pid:309 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:12 pid:309 Worker[309] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:309] exit with status 64000
+2021-06-20 23:11:12 pid:311 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:12 pid:311 Worker[311] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:311] exit with status 64000
+2021-06-20 23:11:12 pid:313 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:12 pid:313 Worker[313] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:313] exit with status 64000
+2021-06-20 23:11:12 pid:315 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:12 pid:315 Worker[315] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:315] exit with status 64000
+2021-06-20 23:11:12 pid:317 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:12 pid:317 Worker[317] process terminated
+2021-06-20 23:11:12 pid:302 worker[none:317] exit with status 64000
+2021-06-20 23:11:13 pid:319 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:319 Worker[319] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:319] exit with status 64000
+2021-06-20 23:11:13 pid:321 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:321 Worker[321] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:321] exit with status 64000
+2021-06-20 23:11:13 pid:323 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:323 Worker[323] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:323] exit with status 64000
+2021-06-20 23:11:13 pid:325 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:325 Worker[325] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:325] exit with status 64000
+2021-06-20 23:11:13 pid:327 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:327 Worker[327] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:327] exit with status 64000
+2021-06-20 23:11:13 pid:329 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:329 Worker[329] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:329] exit with status 64000
+2021-06-20 23:11:13 pid:331 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:331 Worker[331] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:331] exit with status 64000
+2021-06-20 23:11:13 pid:333 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:333 Worker[333] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:333] exit with status 64000
+2021-06-20 23:11:13 pid:335 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:335 Worker[335] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:335] exit with status 64000
+2021-06-20 23:11:13 pid:337 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:337 Worker[337] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:337] exit with status 64000
+2021-06-20 23:11:13 pid:339 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:339 Worker[339] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:339] exit with status 64000
+2021-06-20 23:11:13 pid:341 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:35
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:13 pid:341 Worker[341] process terminated
+2021-06-20 23:11:13 pid:302 worker[none:341] exit with status 64000
+2021-06-20 23:11:13 pid:302 Workerman[test.php] stopping ...
+2021-06-20 23:11:13 pid:302 Workerman[test.php] has been stopped
+2021-06-20 23:11:35 pid:346 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:11:35 pid:347 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:26
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#8 {main}
+2021-06-20 23:11:35 pid:347 Worker[347] process terminated
+2021-06-20 23:11:35 pid:346 worker[none:347] exit with status 64000
+2021-06-20 23:11:35 pid:350 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:26
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:35 pid:350 Worker[350] process terminated
+2021-06-20 23:11:35 pid:346 worker[none:350] exit with status 64000
+2021-06-20 23:11:35 pid:353 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:26
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:35 pid:353 Worker[353] process terminated
+2021-06-20 23:11:35 pid:346 worker[none:353] exit with status 64000
+2021-06-20 23:11:35 pid:356 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:26
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:35 pid:356 Worker[356] process terminated
+2021-06-20 23:11:35 pid:346 worker[none:356] exit with status 64000
+2021-06-20 23:11:35 pid:359 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:26
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:35 pid:359 Worker[359] process terminated
+2021-06-20 23:11:35 pid:346 worker[none:359] exit with status 64000
+2021-06-20 23:11:35 pid:362 Error: Call to undefined method Workerman\Worker::send() in /mnt/d/Projects/MultiProcessFrame/test.php:26
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/test.php(63): Workerman\Worker::runAll()
+#10 {main}
+2021-06-20 23:11:35 pid:362 Worker[362] process terminated
+2021-06-20 23:11:35 pid:346 worker[none:362] exit with status 64000
+2021-06-20 23:11:35 pid:346 Workerman[test.php] stopping ...
+2021-06-20 23:11:35 pid:346 Workerman[test.php] has been stopped
+2021-06-20 23:12:02 pid:369 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:12:04 pid:369 Workerman[test.php] stopping ...
+2021-06-20 23:12:04 pid:369 Workerman[test.php] has been stopped
+2021-06-20 23:12:13 pid:374 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:12:14 pid:374 Workerman[test.php] stopping ...
+2021-06-20 23:12:14 pid:374 Workerman[test.php] has been stopped
+2021-06-20 23:12:23 pid:379 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:12:24 pid:379 Workerman[test.php] stopping ...
+2021-06-20 23:12:24 pid:379 Workerman[test.php] has been stopped
+2021-06-20 23:12:31 pid:384 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:12:33 pid:384 Workerman[test.php] stopping ...
+2021-06-20 23:12:33 pid:384 Workerman[test.php] has been stopped
+2021-06-20 23:12:43 pid:389 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:12:44 pid:389 Workerman[test.php] stopping ...
+2021-06-20 23:12:44 pid:389 Workerman[test.php] has been stopped
+2021-06-20 23:13:15 pid:394 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:13:16 pid:394 Workerman[test.php] stopping ...
+2021-06-20 23:13:16 pid:394 Workerman[test.php] has been stopped
+2021-06-20 23:13:35 pid:399 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:13:36 pid:399 Workerman[test.php] stopping ...
+2021-06-20 23:13:36 pid:399 Workerman[test.php] has been stopped
+2021-06-20 23:14:04 pid:404 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:14:05 pid:404 Workerman[test.php] stopping ...
+2021-06-20 23:14:05 pid:404 Workerman[test.php] has been stopped
+2021-06-20 23:14:12 pid:409 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:14:13 pid:409 Workerman[test.php] stopping ...
+2021-06-20 23:14:13 pid:409 Workerman[test.php] has been stopped
+2021-06-20 23:14:30 pid:414 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:14:33 pid:414 Workerman[test.php] stopping ...
+2021-06-20 23:14:33 pid:414 Workerman[test.php] has been stopped
+2021-06-20 23:14:34 pid:419 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:14:35 pid:419 Workerman[test.php] stopping ...
+2021-06-20 23:14:35 pid:419 Workerman[test.php] has been stopped
+2021-06-20 23:15:23 pid:424 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:15:40 pid:424 Workerman[test.php] stopping ...
+2021-06-20 23:15:40 pid:424 Workerman[test.php] has been stopped
+2021-06-20 23:15:41 pid:429 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:15:46 pid:429 Workerman[test.php] stopping ...
+2021-06-20 23:15:46 pid:429 Workerman[test.php] has been stopped
+2021-06-20 23:16:17 pid:434 Workerman[test.php] start in DEBUG mode
+2021-06-20 23:16:19 pid:434 Workerman[test.php] stopping ...
+2021-06-20 23:16:19 pid:434 Workerman[test.php] has been stopped
+2021-06-21 22:09:26 pid:26 Workerman[test.php] start in DEBUG mode
+2021-06-21 22:09:35 pid:26 Workerman[test.php] stopping ...
+2021-06-21 22:09:35 pid:26 Workerman[test.php] has been stopped
+2021-06-21 22:09:41 pid:31 Workerman[test.php] start in DEBUG mode
+2021-06-21 22:13:56 pid:31 Workerman[test.php] stopping ...
+2021-06-21 22:13:56 pid:31 Workerman[test.php] has been stopped
+2021-06-21 22:13:56 pid:36 Workerman[test.php] start in DEBUG mode
+2021-06-21 22:19:20 pid:36 Workerman[test.php] stopping ...
+2021-06-21 22:19:20 pid:36 Workerman[test.php] has been stopped
+2021-06-21 22:19:21 pid:41 Workerman[test.php] start in DEBUG mode
+2021-06-21 22:20:00 pid:41 Workerman[test.php] stopping ...
+2021-06-21 22:20:00 pid:41 Workerman[test.php] has been stopped
+2021-06-21 23:08:00 pid:21 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:08:02 pid:21 Workerman[main.php] stopping ...
+2021-06-21 23:08:02 pid:21 Workerman[main.php] has been stopped
+2021-06-21 23:08:26 pid:24 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:08:28 pid:24 Workerman[main.php] stopping ...
+2021-06-21 23:08:28 pid:24 Workerman[main.php] has been stopped
+2021-06-21 23:09:38 pid:27 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:09:39 pid:27 Workerman[main.php] stopping ...
+2021-06-21 23:09:39 pid:27 Workerman[main.php] has been stopped
+2021-06-21 23:12:24 pid:32 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:12:31 pid:34 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:13:06 pid:44 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:13:45 pid:45 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:13:48 pid:45 Workerman[main.php] stopping ...
+2021-06-21 23:13:48 pid:45 Workerman[main.php] has been stopped
+2021-06-21 23:13:58 pid:47 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:14:01 pid:47 Workerman[main.php] stopping ...
+2021-06-21 23:14:01 pid:47 Workerman[main.php] has been stopped
+2021-06-21 23:14:16 pid:49 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:14:43 pid:54 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:14:47 pid:54 Workerman[main.php] stopping ...
+2021-06-21 23:14:47 pid:54 Workerman[main.php] has been stopped
+2021-06-21 23:15:37 pid:56 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:16:25 pid:56 Workerman[main.php] stopping ...
+2021-06-21 23:16:25 pid:56 Workerman[main.php] has been stopped
+2021-06-21 23:16:26 pid:58 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:16:27 pid:58 Workerman[main.php] stopping ...
+2021-06-21 23:16:27 pid:58 Workerman[main.php] has been stopped
+2021-06-21 23:16:41 pid:60 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:16:51 pid:61 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:16:59 pid:62 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:17:00 pid:62 Workerman[main.php] stopping ...
+2021-06-21 23:17:00 pid:62 Workerman[main.php] has been stopped
+2021-06-21 23:17:24 pid:64 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:18:00 pid:64 Workerman[main.php] stopping ...
+2021-06-21 23:18:00 pid:64 Workerman[main.php] has been stopped
+2021-06-21 23:18:01 pid:66 Workerman[main.php] start in DEBUG mode
+2021-06-21 23:18:03 pid:66 Workerman[main.php] stopping ...
+2021-06-21 23:18:03 pid:66 Workerman[main.php] has been stopped
+2021-06-22 22:15:21 pid:21 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:15:40 pid:21 Workerman[main.php] stopping ...
+2021-06-22 22:15:40 pid:21 Workerman[main.php] has been stopped
+2021-06-22 22:15:41 pid:24 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:15:46 pid:24 Workerman[main.php] stopping ...
+2021-06-22 22:15:46 pid:24 Workerman[main.php] has been stopped
+2021-06-22 22:16:18 pid:27 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:16:37 pid:27 Workerman[main.php] stopping ...
+2021-06-22 22:16:37 pid:27 Workerman[main.php] has been stopped
+2021-06-22 22:16:37 pid:30 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:17:32 pid:30 Workerman[main.php] stopping ...
+2021-06-22 22:17:32 pid:30 Workerman[main.php] has been stopped
+2021-06-22 22:17:32 pid:33 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:24:20 pid:33 Workerman[main.php] stopping ...
+2021-06-22 22:24:20 pid:33 Workerman[main.php] has been stopped
+2021-06-22 22:24:20 pid:36 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:24:21 pid:36 Workerman[main.php] stopping ...
+2021-06-22 22:24:21 pid:36 Workerman[main.php] has been stopped
+2021-06-22 22:26:51 pid:39 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:26:52 pid:39 Workerman[main.php] stopping ...
+2021-06-22 22:26:52 pid:39 Workerman[main.php] has been stopped
+2021-06-22 22:27:14 pid:44 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:27:17 pid:44 Workerman[main.php] stopping ...
+2021-06-22 22:27:17 pid:44 Workerman[main.php] has been stopped
+2021-06-22 22:28:05 pid:51 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:28:07 pid:51 Workerman[main.php] stopping ...
+2021-06-22 22:28:07 pid:51 Workerman[main.php] has been stopped
+2021-06-22 22:28:19 pid:54 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:28:21 pid:54 Workerman[main.php] stopping ...
+2021-06-22 22:28:21 pid:54 Workerman[main.php] has been stopped
+2021-06-22 22:29:03 pid:59 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:29:05 pid:59 Workerman[main.php] stopping ...
+2021-06-22 22:29:05 pid:59 Workerman[main.php] has been stopped
+2021-06-22 22:44:48 pid:64 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:44:50 pid:64 Workerman[main.php] stopping ...
+2021-06-22 22:44:50 pid:64 Workerman[main.php] has been stopped
+2021-06-22 22:44:56 pid:69 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:44:57 pid:69 Workerman[main.php] stopping ...
+2021-06-22 22:44:57 pid:69 Workerman[main.php] has been stopped
+2021-06-22 22:45:04 pid:74 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:45:07 pid:74 Workerman[main.php] stopping ...
+2021-06-22 22:45:07 pid:74 Workerman[main.php] has been stopped
+2021-06-22 22:45:08 pid:77 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:45:10 pid:77 Workerman[main.php] stopping ...
+2021-06-22 22:45:10 pid:77 Workerman[main.php] has been stopped
+2021-06-22 22:45:49 pid:80 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:45:57 pid:80 Workerman[main.php] stopping ...
+2021-06-22 22:45:57 pid:80 Workerman[main.php] has been stopped
+2021-06-22 22:48:39 pid:83 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:48:41 pid:83 Workerman[main.php] stopping ...
+2021-06-22 22:48:41 pid:83 Workerman[main.php] has been stopped
+2021-06-22 22:48:54 pid:86 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:48:56 pid:86 Workerman[main.php] stopping ...
+2021-06-22 22:48:56 pid:86 Workerman[main.php] has been stopped
+2021-06-22 22:49:05 pid:89 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:49:07 pid:89 Workerman[main.php] stopping ...
+2021-06-22 22:49:07 pid:89 Workerman[main.php] has been stopped
+2021-06-22 22:49:36 pid:94 Workerman[main.php] start in DEBUG mode
+2021-06-22 22:49:38 pid:94 Workerman[main.php] stopping ...
+2021-06-22 22:49:38 pid:94 Workerman[main.php] has been stopped
+2021-06-23 22:13:38 pid:21 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:13:39 pid:21 Workerman[main.php] stopping ...
+2021-06-23 22:13:39 pid:21 Workerman[main.php] has been stopped
+2021-06-23 22:13:54 pid:25 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:14:09 pid:25 Workerman[main.php] stopping ...
+2021-06-23 22:14:09 pid:25 Workerman[main.php] has been stopped
+2021-06-23 22:14:10 pid:29 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:14:39 pid:29 Workerman[main.php] stopping ...
+2021-06-23 22:14:39 pid:29 Workerman[main.php] has been stopped
+2021-06-23 22:14:40 pid:33 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:15:02 pid:33 Workerman[main.php] stopping ...
+2021-06-23 22:15:02 pid:33 Workerman[main.php] has been stopped
+2021-06-23 22:15:02 pid:37 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:15:04 pid:37 Workerman[main.php] stopping ...
+2021-06-23 22:15:04 pid:37 Workerman[main.php] has been stopped
+2021-06-23 22:20:53 pid:42 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:20:55 pid:42 Workerman[main.php] stopping ...
+2021-06-23 22:20:55 pid:42 Workerman[main.php] has been stopped
+2021-06-23 22:32:45 pid:47 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:32:46 pid:47 Workerman[main.php] stopping ...
+2021-06-23 22:32:46 pid:47 Workerman[main.php] has been stopped
+2021-06-23 22:39:44 pid:52 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:39:45 pid:52 Workerman[main.php] stopping ...
+2021-06-23 22:39:45 pid:52 Workerman[main.php] has been stopped
+2021-06-23 22:40:31 pid:57 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:40:33 pid:57 Workerman[main.php] stopping ...
+2021-06-23 22:40:33 pid:57 Workerman[main.php] has been stopped
+2021-06-23 22:40:47 pid:62 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:40:51 pid:62 Workerman[main.php] stopping ...
+2021-06-23 22:40:51 pid:62 Workerman[main.php] has been stopped
+2021-06-23 22:42:44 pid:67 Workerman[main.php] start in DEBUG mode
+2021-06-23 22:42:56 pid:67 Workerman[main.php] stopping ...
+2021-06-23 22:42:56 pid:67 Workerman[main.php] has been stopped
+2021-06-24 22:16:33 pid:21 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:16:36 pid:21 Workerman[main.php] stopping ...
+2021-06-24 22:16:36 pid:21 Workerman[main.php] has been stopped
+2021-06-24 22:21:48 pid:26 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:21:49 pid:26 Workerman[main.php] stopping ...
+2021-06-24 22:21:49 pid:26 Workerman[main.php] has been stopped
+2021-06-24 22:22:02 pid:31 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:22:24 pid:31 Workerman[main.php] stopping ...
+2021-06-24 22:22:24 pid:31 Workerman[main.php] has been stopped
+2021-06-24 22:22:25 pid:36 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:22:27 pid:36 Workerman[main.php] stopping ...
+2021-06-24 22:22:27 pid:36 Workerman[main.php] has been stopped
+2021-06-24 22:22:35 pid:41 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:22:50 pid:41 Workerman[main.php] stopping ...
+2021-06-24 22:22:50 pid:41 Workerman[main.php] has been stopped
+2021-06-24 22:22:50 pid:46 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:23:52 pid:46 Workerman[main.php] stopping ...
+2021-06-24 22:23:52 pid:46 Workerman[main.php] has been stopped
+2021-06-24 22:23:53 pid:51 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:23:55 pid:51 Workerman[main.php] stopping ...
+2021-06-24 22:23:55 pid:51 Workerman[main.php] has been stopped
+2021-06-24 22:32:36 pid:56 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:32:36 pid:57 Error: Function name must be a string in /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php:42
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/main.php(17): ProcessMan\Process->input()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(29): {closure}()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): ProcessMan\Process->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#10 /mnt/d/Projects/MultiProcessFrame/main.php(23): ProcessMan\Controller::start()
+#11 {main}
+2021-06-24 22:32:36 pid:57 Worker[57] process terminated
+2021-06-24 22:32:36 pid:56 worker[none:57] exit with status 64000
+2021-06-24 22:32:36 pid:60 Error: Function name must be a string in /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php:42
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/main.php(17): ProcessMan\Process->input()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(29): {closure}()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): ProcessMan\Process->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(23): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:32:36 pid:60 Worker[60] process terminated
+2021-06-24 22:32:36 pid:56 worker[none:60] exit with status 64000
+2021-06-24 22:32:36 pid:63 Error: Function name must be a string in /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php:42
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/main.php(17): ProcessMan\Process->input()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(29): {closure}()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): ProcessMan\Process->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(23): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:32:36 pid:63 Worker[63] process terminated
+2021-06-24 22:32:36 pid:56 worker[none:63] exit with status 64000
+2021-06-24 22:32:37 pid:66 Error: Function name must be a string in /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php:42
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/main.php(17): ProcessMan\Process->input()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(29): {closure}()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): ProcessMan\Process->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(23): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:32:37 pid:66 Worker[66] process terminated
+2021-06-24 22:32:37 pid:56 worker[none:66] exit with status 64000
+2021-06-24 22:32:37 pid:69 Error: Function name must be a string in /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php:42
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/main.php(17): ProcessMan\Process->input()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(29): {closure}()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): ProcessMan\Process->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(23): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:32:37 pid:69 Worker[69] process terminated
+2021-06-24 22:32:37 pid:56 worker[none:69] exit with status 64000
+2021-06-24 22:32:37 pid:72 Error: Function name must be a string in /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php:42
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/main.php(17): ProcessMan\Process->input()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(29): {closure}()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Connection/TcpConnection.php(660): ProcessMan\Process->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(23): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:32:37 pid:72 Worker[72] process terminated
+2021-06-24 22:32:37 pid:56 worker[none:72] exit with status 64000
+2021-06-24 22:32:37 pid:56 Workerman[main.php] stopping ...
+2021-06-24 22:32:37 pid:56 Workerman[main.php] has been stopped
+2021-06-24 22:34:05 pid:79 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:34:06 pid:79 Workerman[main.php] stopping ...
+2021-06-24 22:34:06 pid:79 Workerman[main.php] has been stopped
+2021-06-24 22:34:12 pid:84 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:35:58 pid:84 Workerman[main.php] stopping ...
+2021-06-24 22:35:58 pid:84 Workerman[main.php] has been stopped
+2021-06-24 22:35:59 pid:89 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:35:59 pid:90 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#10 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#11 {main}
+2021-06-24 22:35:59 pid:90 Worker[90] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:90] exit with status 64000
+2021-06-24 22:35:59 pid:93 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:93 Worker[93] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:93] exit with status 64000
+2021-06-24 22:35:59 pid:96 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:96 Worker[96] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:96] exit with status 64000
+2021-06-24 22:35:59 pid:99 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:99 Worker[99] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:99] exit with status 64000
+2021-06-24 22:35:59 pid:102 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:102 Worker[102] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:102] exit with status 64000
+2021-06-24 22:35:59 pid:105 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:105 Worker[105] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:105] exit with status 64000
+2021-06-24 22:35:59 pid:108 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:108 Worker[108] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:108] exit with status 64000
+2021-06-24 22:35:59 pid:111 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:111 Worker[111] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:111] exit with status 64000
+2021-06-24 22:35:59 pid:114 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:114 Worker[114] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:114] exit with status 64000
+2021-06-24 22:35:59 pid:117 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:117 Worker[117] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:117] exit with status 64000
+2021-06-24 22:35:59 pid:120 Error: Call to a member function test() on null in /mnt/d/Projects/MultiProcessFrame/main.php:15
+Stack trace:
+#0 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Process.php(37): {closure}()
+#1 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(18): ProcessMan\Process->__construct()
+#2 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2550): ProcessMan\Controller->ProcessMan\{closure}()
+#3 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptUdpConnection()
+#4 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux()
+#7 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#9 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#10 /mnt/d/Projects/MultiProcessFrame/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#11 /mnt/d/Projects/MultiProcessFrame/ProcessMan/Controller.php(56): Workerman\Worker::runAll()
+#12 /mnt/d/Projects/MultiProcessFrame/main.php(24): ProcessMan\Controller::start()
+#13 {main}
+2021-06-24 22:35:59 pid:120 Worker[120] process terminated
+2021-06-24 22:35:59 pid:89 worker[none:120] exit with status 64000
+2021-06-24 22:35:59 pid:89 Workerman[main.php] stopping ...
+2021-06-24 22:35:59 pid:89 Workerman[main.php] has been stopped
+2021-06-24 22:36:16 pid:125 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:36:18 pid:125 Workerman[main.php] stopping ...
+2021-06-24 22:36:18 pid:125 Workerman[main.php] has been stopped
+2021-06-24 22:36:50 pid:130 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:36:53 pid:130 Workerman[main.php] stopping ...
+2021-06-24 22:36:53 pid:130 Workerman[main.php] has been stopped
+2021-06-24 22:38:05 pid:135 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:38:07 pid:135 Workerman[main.php] stopping ...
+2021-06-24 22:38:07 pid:135 Workerman[main.php] has been stopped
+2021-06-24 22:38:25 pid:140 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:38:27 pid:140 Workerman[main.php] stopping ...
+2021-06-24 22:38:27 pid:140 Workerman[main.php] has been stopped
+2021-06-24 22:39:15 pid:145 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:39:18 pid:145 Workerman[main.php] stopping ...
+2021-06-24 22:39:18 pid:145 Workerman[main.php] has been stopped
+2021-06-24 22:39:32 pid:150 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:39:45 pid:150 Workerman[main.php] stopping ...
+2021-06-24 22:39:45 pid:150 Workerman[main.php] has been stopped
+2021-06-24 22:39:46 pid:155 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:39:48 pid:155 Workerman[main.php] stopping ...
+2021-06-24 22:39:48 pid:155 Workerman[main.php] has been stopped
+2021-06-24 22:49:15 pid:160 Workerman[main.php] start in DEBUG mode
+2021-06-24 22:49:17 pid:160 Workerman[main.php] stopping ...
+2021-06-24 22:49:17 pid:160 Workerman[main.php] has been stopped
